@@ -1,5 +1,5 @@
 {
-  "name": "sqs",
+  "name": "node-sqs-aws",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
