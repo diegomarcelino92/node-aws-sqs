@@ -1,0 +1,27 @@
+{
+  "name": "sqs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:producer": "nodemon src/producer/server.ts",
+    "start:consumer": "ts-node src/consumer/cron-job.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.2.1",
+    "@types/node-cron": "^3.0.7",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1381.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "node-cron": "^3.0.2"
+  }
+}
